@@ -1,0 +1,50 @@
+/*#include<iostream>
+using namespace std;
+
+int main(){
+	
+	int n;
+	cin>>n;
+	
+	int row=1;
+	
+	while(row<=n){
+	
+               	
+	        
+	
+		int col=1;
+		
+		while(col<=row){
+			
+			cout<<"*";
+			
+			col=col-1;
+			}
+			
+		cout<<endl;
+		row=row+1;	
+		}
+}			
+
+*/
+//here we have to print n-i star in each row
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+int main(){
+	
+	int n=4;
+	
+	for(int i=n;i>=11;--i){
+		for(int j=1;j<=i;++j){
+			cout<<"*";
+		}
+		cout<<endl;
+		
+		
+	}
+	return 0;
+	
+}			
